@@ -1,0 +1,38 @@
+@font-face { 
+    font-family: "HelveticaNeueLTProLt";
+    src: url(../fonts/HelveticaNeueLTProLt.otf) format("otf");
+}
+@font-face { 
+    font-family: "HelveticaNeueLTProMd";
+    src: url(../fonts/HelveticaNeueLTProMd.otf) format("otf");
+}
+@font-face { 
+    font-family: "HelveticaNeueLTProRoman";
+    src: url(../fonts/HelveticaNeueLTProRoman.otf) format("otf");
+}
+@font-face { 
+    font-family: "Merriweather-LightItalic";
+    src: url(../fonts/Merriweather-LightItalic.ttf) format("ttf");
+}
+@font-face { 
+    font-family: "Montserrat-Light";
+    src: url(../fonts/Montserrat-Light.ttf) format("ttf");
+}
+@font-face { 
+    font-family: "Montserrat-Regular";
+    src: url(../fonts/Montserrat-Regular.ttf) format("ttf");
+}
+@font-face { 
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf) format("ttf");
+}
+
+/* 
+font-family: "HelveticaNeueLTProLt", sans-serif;
+font-family: "HelveticaNeueLTProMd", sans-serif;
+font-family: "HelveticaNeueLTProRoman", sans-serif;
+font-family: "Merriweather-LightItalic", sans-serif;
+font-family: "Montserrat-Light", sans-serif;
+font-family: "Montserrat-Regular", sans-serif;
+font-family: "Roboto-Regular", sans-serif; 
+*/
