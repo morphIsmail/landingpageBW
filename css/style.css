@@ -1,30 +1,30 @@
 @font-face { 
     font-family: "HelveticaNeueLTProLt";
-    src: url(../fonts/HelveticaNeueLTProLt.otf) format("otf");
+    src: url(../fonts/HelveticaNeueLTProLt.otf) format("opentype");
 }
 @font-face { 
     font-family: "HelveticaNeueLTProMd";
-    src: url(../fonts/HelveticaNeueLTProMd.otf) format("otf");
+    src: url(../fonts/HelveticaNeueLTProMd.otf) format("opentype");
 }
 @font-face { 
     font-family: "HelveticaNeueLTProRoman";
-    src: url(../fonts/HelveticaNeueLTProRoman.otf) format("otf");
+    src: url(../fonts/HelveticaNeueLTProRoman.otf) format("opentype");
 }
 @font-face { 
     font-family: "Merriweather-LightItalic";
-    src: url(../fonts/Merriweather-LightItalic.ttf) format("ttf");
+    src: url(../fonts/Merriweather-LightItalic.ttf) format("truetype");
 }
 @font-face { 
     font-family: "Montserrat-Light";
-    src: url(../fonts/Montserrat-Light.ttf) format("ttf");
+    src: url(../fonts/Montserrat-Light.ttf) format("truetype");
 }
 @font-face { 
     font-family: "Montserrat-Regular";
-    src: url(../fonts/Montserrat-Regular.ttf) format("ttf");
+    src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
 }
 @font-face { 
     font-family: "Roboto-Regular";
-    src: url(../fonts/Roboto-Regular.ttf) format("ttf");
+    src: url(../fonts/Roboto-Regular.ttf) format("truetype");
 }
 
 /* 
@@ -112,4 +112,48 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto 206px;
+}
+
+
+.about {
+    height: 1129px;
+    padding-top: 128px;
+    padding-bottom: 271px;
+    background: url(../img/buildings_white.png) center bottom repeat-x,
+                url(../img/buildings_dark.png) center bottom repeat-x,
+                #1d1d1d;
+    /* background-size: contain, contain; */
+}
+.about__inner {
+    display: grid;
+    grid-template-rows: max-content max-content;
+    grid-template-columns: max-content max-content;
+    grid-gap: 178px;
+    place-content: center center;
+}
+.about__item {
+    width: 417px;
+    height: 276px;
+    background-color: #181818;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about__year {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #fefefe;
+    margin-bottom: 27px;
+}
+.about__text {
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 22px;
+    color: #b7b7b7;
 }
